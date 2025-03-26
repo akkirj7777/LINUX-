@@ -3,15 +3,15 @@ mkdir command
 
 Creating directories inside directories with a single command.
 	
-#  mkdir -p cloudindia/{redhat,kali,suse,centos}  —> will create parent directory cloudindian and then inside cloudindia it will create other directories.
+ 'mkdir -p cloudindia/{redhat,kali,suse,centos}'  —> will create parent directory cloudindian and then inside cloudindia it will create other directories.
 
-# mkdir -p xyz/akshay/jadhav
+ mkdir -p xyz/akshay/jadhav
 This command will create a parent directory xyz, dir akshay inside it, and dir jadhav inside it.
 
 Changing the date manually:
 
-# date 022107372025.39 | command to change the date manually including format goes like  date month-day-hour-minute-year-seconds
+ date 022107372025.39 | command to change the date manually including format goes like  date month-day-hour-minute-year-seconds
 
-# date -s "Fri Feb 22 07:36:54 AM IST 2025" | command to change the date manually including format set by date command
+ date -s "Fri Feb 22 07:36:54 AM IST 2025" | command to change the date manually including format set by date command
 
-# hwclock --set --date "2025-02-22 07:44:48.080707+05:30" | command to change hardware clock and date manually
+ hwclock --set --date "2025-02-22 07:44:48.080707+05:30" | command to change hardware clock and date manually
