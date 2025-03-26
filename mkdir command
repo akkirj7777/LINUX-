@@ -1,0 +1,9 @@
+mkdir command
+(-p : option provided to create a parent directory)
+
+Creating directories inside directories with a single command.
+	
+#  mkdir -p cloudindia/{redhat,kali,suse,centos}  —> will create parent directory cloudindian and then inside cloudindia it will create other directories.
+
+# mkdir -p xyz/akshay/jadhav
+This command will create a parent directory xyz, dir akshay inside it, and dir jadhav inside it.
