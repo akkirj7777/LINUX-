@@ -1,0 +1,6 @@
+Linux time management (commands:date,hwclock,timedatectl)
+
+
+System clock - OS default time    | commands - date, timedatectl
+Hardware time - Hardware default time | commands - hwclock
+
